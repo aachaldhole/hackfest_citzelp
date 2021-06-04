@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"Bahnschrift";
+	background: rgba(1,1,1,0.5) url(donor.jpg) no-repeat ;
+	background-size: cover;
+	background-blend-mode: darken;
+}
+img{
+	width: 100px;
+	filter: invert(100%);
+	margin-left: 20px;
+	margin-top: 20px;
+}
+h2{
+    
+    line-height: 7px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Fantasy;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(209, 231, 129);;
+}
+.container{
+	width: 1000px;
+	position: relative;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	background: rgba(0,120,0,0.2);
+    height: 650px;
+}
+input{
+	margin-top: 20px;
+	margin-left: 35%;
+	font-family: "Bahnschrift";
+	padding: 6px 0;
+	font-size: 25px;
+	text-align: center;
+	width: 45%;
+}
+select{
+	
+	margin-left: 35%;
+	font-family: "Bahnschrift";
+	padding: 6px 0;
+	font-size:25px;
+	width: 45%;
+
+}
+/*label{
+	font-family: "Bahnschrift";
+	color: white;
+	font-size: 20px;
+
+margin-top: 15px;
+}*/
+.button{
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	color: #fff;
+	background-color: black;
+	box-shadow: 0 2px #999;
+
+}
+.button:hover { 
+	background-color: #186666
+}
+.button:active{
+	
+	background-color: #186666;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+h1{
+	font-size: 70px;
+	color: white ;
+	margin-left: 35%;
+	border-bottom: 8px solid white;
+
+	width:40%;
+	font-family: "Candara";
+	margin-bottom:20px;
+	
+}

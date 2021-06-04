@@ -1,0 +1,37 @@
+<html>
+<head>
+
+<title>Donar Data</title>
+<link rel="stylesheet" href="Donar1.css">
+</head>
+<body>
+  <img src="logo1.jpg" alt="">
+     <h2>Citzelp Covid-19</h2>
+
+  <div class="container">
+    <h1>Fill your Data</h1>
+<form method="post" action=Donar.jsp>
+<input type=text placeholder =First_name name=first_name style="margin-top: 60px;" required><br>
+<input type=text placeholder =Last_name  name=last_name required><br>
+<input type=Number placeholder=Phone_No name=Phone_No min=1000000000 max=9999999999 style="width: 45%" required><br>
+<input type=text placeholder=Address name=Address required><br><br>
+ <!--<label for="Objects" style="margin-left: 35%">Select object you want to donate:</label>-->
+  <select id="obj" name="obj" required>
+
+    <option value="Select objects">Select Objects to donate</option>
+    <option value="Face Mask">Face Mask</option>
+    <option value="Face Shield">Face Shield</option>
+    <option value=" Sanitizer"> Sanitizer</option>
+    <option value="Thermometer">Thermometer</option>
+    <option value="Pulse Oximeter">Pulse Oximeter</option>
+    <option value="Disinfectant Spray">Disinfectant Spray</option>
+    <option value="First Aid Kit">First Aid Kit</option>
+  </select><br>
+  <input type=Number placeholder=Quantity name=Quantity min=1 required><br>
+ 
+  <input type="submit" value=Submit style="width: 20%" class="button">
+  
+</form>
+</div>
+</body>
+</html>
